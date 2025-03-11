@@ -31,6 +31,14 @@ export default function Home() {
       />
 
       <main className="absolute inset-0 flex flex-col items-center justify-center p-4">
+        <div className="my-6">
+        <Image
+            src="/line.svg"
+            alt="line"
+            width={2}
+            height={60}
+          />
+        </div>
         <div className="">
           <Image
             src="/top.svg"
@@ -39,7 +47,7 @@ export default function Home() {
             height={30}
           />
         </div>
-        <div className="my-10">
+        <div className="my-3 mb-10">
           <Image
             src="/solink.svg"
             alt="solink logomark"
@@ -48,28 +56,28 @@ export default function Home() {
           />
         </div>
 
-        <div className="flex flex-col space-y-10">
+        <div className="flex flex-col space-y-5">
           <button
             type="button"
-            className="border-1 border-white-200/80 rounded-3xl px-44 py-3 bg-gradient-to-r from-[#071F64]/0 via-[#4B6497]/44 to-[#A4BEDA]/100 mb-8"
+            className="border border-white/80 rounded-4xl px-50 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToMemberPage}>
             전체
           </button>
           
           <button 
-            className="border-1 border-white-200/80 rounded-3xl px-44 py-3 bg-gradient-to-r from-[#071F64]/0 via-[#4B6497]/44 to-[#A4BEDA]/100 mb-8"
+            className="border border-white/80 rounded-4xl px-50 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToPmPage}>
             기획
           </button>
           
           <button
-            className="border-1 border-white-200/80 rounded-3xl px-40 py-3 bg-gradient-to-r from-[#071F64]/0 via-[#4B6497]/44 to-[#A4BEDA]/100 mb-8"
+            className="border border-white/80 rounded-4xl px-50 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToDesignPage}>
             디자인
           </button>
           
           <button
-            className="border-1 border-white-200/80 rounded-3xl px-40 py-3 bg-gradient-to-r from-[#071F64]/0 via-[#4B6497]/44 to-[#A4BEDA]/100 mb-8"
+            className="border border-white/80 rounded-4xl px-50 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToDevelopPage}>
             개발
           </button>
@@ -85,6 +93,15 @@ export default function Home() {
           <div>
             실제 배포를 목적으로 하며 기획, 디자인, 개발 팀의 협업을 통해 게임, 웹, 앱의 결과물을 만들어 냅니다.
           </div>
+        </div>
+
+        <div className="my-6 rotate-180">
+          <Image
+            src="/line.svg"
+            alt="line"
+            width={2}
+            height={60}
+          />
         </div>
       </main> 
     </div>
