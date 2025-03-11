@@ -39,51 +39,53 @@ export default function Home() {
             height={60}
           />
         </div>
-        <div className="">
+        <div className="flex justify-center">
           <Image
             src="/top.svg"
             alt="programming club"
             width={147}
             height={30}
+            className="w-3/4 md:w-[157px] md:h-[25px] h-auto"
           />
         </div>
-        <div className="my-3 mb-10">
+        <div className="my-3 mb-10 flex justify-center">
           <Image
             src="/solink.svg"
             alt="solink logomark"
             width={247}
             height={100}
+            className="w-3/4 md:w-[237px] md:h-[80px] h-auto"
           />
         </div>
 
         <div className="flex flex-col space-y-5 md:text-[0.9rem] text-[0.8rem]">
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-36 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToMemberPage}>
             전체
           </button>
           
           <button 
-            className="border border-white/80 rounded-4xl px-36 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToPmPage}>
             기획
           </button>
           
           <button
-            className="border border-white/80 rounded-4xl px-36 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToDesignPage}>
             디자인
           </button>
           
           <button
-            className="border border-white/80 rounded-4xl px-36 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToDevelopPage}>
             개발
           </button>
         </div>
 
-        <div className="whitespace-pre md:text-[0.75rem] text-[0.5rem] text-center text-[#767676]">
+        <div className="whitespace-pre mt-5 md:text-[0.75rem] text-[0.55rem] text-center text-[#767676]">
           <div>
             솔룩스는 숙명여자대학교의 유일무이한 프로그래밍 중앙동아리입니다.
           </div>
