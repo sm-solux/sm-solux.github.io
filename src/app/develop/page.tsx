@@ -4,14 +4,6 @@ import Image from "next/image";
 
 const DevelopPage = () => {
   const router = useRouter();
-  
-  const clickCurriculmn = () => {
-    window.open("https://vast-glider-d96.notion.site/solux-002?pvs=4");
-  };
-
-  const clickWarning = () => {
-    window.open("https://vast-glider-d96.notion.site/1b453a1638008062b97de6e7af4b0144?pvs=4");
-  };
 
   const clickBack = () => {
     router.back();
@@ -53,19 +45,10 @@ const DevelopPage = () => {
           />
         </div>
 
-        <div className="flex flex-col space-y-5 md:text-[0.9rem] text-[0.8rem] mt-5">
-          <button
-            type="button"
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
-            onClick={clickCurriculmn}>
-            커리큘럼
-          </button>
-          
-          {/* <button 
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
-            onClick={clickWarning}>
-            주의사항
-          </button> */}
+        <div className="whitespace-pre mt-3 md:text-[0.75rem] text-[0.55rem] text-center text-[#767676]">
+          <div>
+            추가질문은 운영진 슬랙을 통해 받습니다.
+          </div>
         </div>
       </main> 
       <div className="absolute bottom-10 left-10" onClick={clickBack}>

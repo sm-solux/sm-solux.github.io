@@ -4,13 +4,21 @@ import Image from "next/image";
 
 const MemberPage = () => {
   const router = useRouter();
+
+  const clickOT = () => {
+    window.open("https://docs.google.com/spreadsheets/d/1jlFLsQZrUI1lYYj67ccIRt-tUAFXwg78Dj899l--4dc/edit?usp=sharing");
+  };
   
-  const clickCurriculmn = () => {
-    window.open("https://vast-glider-d96.notion.site/solux-002?pvs=4");
+  const clickReport = () => {
+    window.open("https://docs.google.com/document/d/1GVwkls9_IUJQvXmn9x7OgN5W17KMPkmC/edit?usp=sharing&ouid=116639848871058315460&rtpof=true&sd=true");
   };
 
-  const clickWarning = () => {
-    window.open("https://vast-glider-d96.notion.site/1b453a1638008062b97de6e7af4b0144?pvs=4");
+  const clickRoom = () => {
+    window.open("https://docs.google.com/spreadsheets/d/1jlFLsQZrUI1lYYj67ccIRt-tUAFXwg78Dj899l--4dc/edit?usp=sharing");
+  };
+
+  const clickReward = () => {
+    window.open("https://docs.google.com/document/d/1FU8SBx_XVFaZyaQFsJL-rdjm9D3bJqEi/edit?usp=sharing&ouid=116639848871058315460&rtpof=true&sd=true");
   };
 
   const clickBack = () => {
@@ -57,15 +65,30 @@ const MemberPage = () => {
           <button
             type="button"
             className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
-            onClick={clickCurriculmn}>
-            회의록 양식
+            onClick={clickOT}>
+            3/14 OT 자료
+          </button>
+
+          <button
+            type="button"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            onClick={clickReward}>
+            상벌점제 및 연간계획
           </button>
           
-          {/* <button 
+          <button
+            type="button"
             className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
-            onClick={clickWarning}>
-            주의사항
-          </button> */}
+            onClick={clickReport}>
+            회의록 양식
+          </button>
+
+          <button
+            type="button"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            onClick={clickRoom}>
+            동아리방 방문 기록
+          </button>
         </div>
       </main> 
       <div className="absolute bottom-10 left-10" onClick={clickBack}>

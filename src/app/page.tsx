@@ -35,7 +35,7 @@ export default function Home() {
       />
 
       <main className="absolute inset-0 flex flex-col items-center justify-center p-4">
-        <div className="my-6">
+        <div className="my-4">
         <Image
             src="/line.svg"
             alt="line"
@@ -49,53 +49,54 @@ export default function Home() {
             alt="programming club"
             width={147}
             height={30}
-            className="w-3/4 md:w-[157px] md:h-[25px] h-auto"
+            className="w-3/4 md:w-[127px] md:h-[25px]"
           />
         </div>
-        <div className="my-3 mb-10 flex justify-center">
+        <div className="my-1 mb-6 flex justify-center">
           <Image
             src="/solink.svg"
             alt="solink logomark"
             width={247}
             height={100}
-            className="w-3/4 md:w-[237px] md:h-[80px] h-auto"
+            className="w-3/4 md:w-[207px] md:h-[60px]"
           />
         </div>
 
         <div className="flex flex-col space-y-5 md:text-[0.9rem] text-[0.8rem]">
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToMemberPage}>
             전체
           </button>
 
           <button
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            type="button"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToStarterPage}>
             스타터
           </button>
           
           <button 
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToPmPage}>
             기획
           </button>
           
           <button
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToDesignPage}>
             디자인
           </button>
           
           <button
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToDevelopPage}>
             개발
           </button>
         </div>
 
-        <div className="whitespace-pre mt-5 md:text-[0.75rem] text-[0.55rem] text-center text-[#767676]">
+        <div className="whitespace-pre mt-3 md:text-[0.75rem] text-[0.55rem] text-center text-[#767676]">
           <div>
             솔룩스는 숙명여자대학교의 유일무이한 프로그래밍 중앙동아리입니다.
           </div>
@@ -107,7 +108,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="my-6 rotate-180">
+        <div className="my-4 rotate-180">
           <Image
             src="/line.svg"
             alt="line"
