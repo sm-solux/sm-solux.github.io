@@ -20,6 +20,10 @@ export default function Home() {
   const goToDevelopPage = () => {
     router.push('/develop');
   };
+
+  const goToStarterPage = () => {
+    router.push('starter');
+  }
   
   return (
     <div className="h-screen w-screen relative">
@@ -64,6 +68,12 @@ export default function Home() {
             className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToMemberPage}>
             전체
+          </button>
+
+          <button
+            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            onClick={goToStarterPage}>
+            스타터
           </button>
           
           <button 
