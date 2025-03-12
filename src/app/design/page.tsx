@@ -10,7 +10,7 @@ const DesignPage = () => {
   };
 
   const clickWarning = () => {
-    window.open("https://vast-glider-d96.notion.site/solux-002?pvs=4");
+    window.open("https://vast-glider-d96.notion.site/1b453a1638008062b97de6e7af4b0144?pvs=4");
   };
 
   const clickBack = () => {
