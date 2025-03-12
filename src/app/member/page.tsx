@@ -64,28 +64,28 @@ const MemberPage = () => {
         <div className="flex flex-col space-y-5 md:text-[0.9rem] text-[0.8rem] mt-5">
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-30 md:px-42 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
             onClick={clickOT}>
             3/14 OT 자료
           </button>
 
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-30 md:px-42 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
             onClick={clickReward}>
             상벌점제 및 연간계획
           </button>
           
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-30 md:px-42 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
             onClick={clickReport}>
             회의록 양식
           </button>
 
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            className="border border-white/80 rounded-4xl px-30 md:px-42 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
             onClick={clickRoom}>
             동아리방 방문 기록
           </button>
