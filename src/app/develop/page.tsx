@@ -47,7 +47,7 @@ const DevelopPage = () => {
 
         <div className="whitespace-pre mt-3 md:text-[0.75rem] text-[0.55rem] text-center text-[#767676]">
           <div>
-            추가질문은 운영진 슬랙을 통해 받습니다.
+            추가 질문은 @김세희 슬랙 디엠을 통해 받습니다.
           </div>
         </div>
       </main> 

@@ -53,16 +53,16 @@ const DesignPage = () => {
           />
         </div>
 
-        <div className="flex flex-col space-y-5 md:text-[0.9rem] text-[0.8rem] mt-5">
+        <div className="flex flex-col space-y-5 md:text-[0.9rem] text-[0.8rem]">
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
             onClick={clickCurriculmn}>
             커리큘럼
           </button>
           
           <button 
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
             onClick={clickWarning}>
             주의사항
           </button>

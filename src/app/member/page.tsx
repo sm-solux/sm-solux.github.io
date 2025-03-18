@@ -6,7 +6,7 @@ const MemberPage = () => {
   const router = useRouter();
 
   const clickOT = () => {
-    window.open("https://docs.google.com/spreadsheets/d/1jlFLsQZrUI1lYYj67ccIRt-tUAFXwg78Dj899l--4dc/edit?usp=sharing");
+    window.open("https://drive.google.com/file/d/1I4cJ9XZU4GUQsz-JvuI00LX-uilTlpyL/view?usp=sharing");
   };
   
   const clickReport = () => {
@@ -61,31 +61,31 @@ const MemberPage = () => {
           />
         </div>
 
-        <div className="flex flex-col space-y-5 md:text-[0.9rem] text-[0.8rem] mt-5">
+        <div className="flex flex-col space-y-5 md:text-[0.9rem] text-[0.8rem]">
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-30 md:px-42 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
             onClick={clickOT}>
             3/14 OT 자료
           </button>
 
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-30 md:px-42 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
             onClick={clickReward}>
             상벌점제 및 연간계획
           </button>
           
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-30 md:px-42 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
             onClick={clickReport}>
             회의록 양식
           </button>
 
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-30 md:px-42 py-3.5 relative mb-5 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#AAD6D5]/60 text-opacity-100"
             onClick={clickRoom}>
             동아리방 방문 기록
           </button>

@@ -65,32 +65,32 @@ export default function Home() {
         <div className="flex flex-col space-y-5 md:text-[0.9rem] text-[0.8rem]">
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToMemberPage}>
             전체
           </button>
 
           <button
             type="button"
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToStarterPage}>
             스타터
           </button>
           
           <button 
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToPmPage}>
             기획
           </button>
           
           <button
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToDesignPage}>
             디자인
           </button>
           
           <button
-            className="border border-white/80 rounded-4xl px-34 md:px-46 py-3.5 relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
+            className="md:w-[450px] w-[300px] h-12 border border-white/80 rounded-4xl relative mb-4 bg-gradient-to-r from-[#071F64]/0 to-[#A4BEDA]/60 text-opacity-100"
             onClick={goToDevelopPage}>
             개발
           </button>
